@@ -24,37 +24,22 @@ body {
     background-size: cover;
 }
 .container {
-    margin: 5% 0;
+    margin: 10% 0;
 }
 #headerbar {
     margin: 0 0 10px 0;
     padding: 40px;
-    font-family: 'Shrikhand', cursive;
     font-size: 3em;
     text-align: center;
     border-radius: 0;
 }
-#scores {
-    text-align: center;
-    padding: 20px 70px;
-    font-family: 'PT Serif', serif;
-
+#buttonfield {
+    height: 100px;
+    border: 2px dashed red;
+    margin: 0px;
 }
-#timer-container {
-    padding: 20px;
-    color: white;
-    border-radius: 10px;
-    text-align: center;
-}
-.card-header {
-    text-align: center;
-}
-#question-container {
-    padding: 30px;
-}
-input[type=radio] {
-    margin-right: 20px;
-}
-form {
-    padding: 10px;
+#giphyfield {
+    height: 100px;
+    border: 2px dashed blue;
+    margin: 0px;
 }
