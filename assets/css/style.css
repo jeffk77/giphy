@@ -1,0 +1,60 @@
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.75em;
+}
+h4 {
+    font-size: 1.5em;
+}
+h5 {
+    font-size: 1.25em;
+}
+h6 {
+    font-size: 1em;
+}
+p {
+    font-size: 0.75em;
+}
+body {
+    background-image: url("../images/stripes-light.png");
+    background-size: cover;
+}
+.container {
+    margin: 5% 0;
+}
+#headerbar {
+    margin: 0 0 10px 0;
+    padding: 40px;
+    font-family: 'Shrikhand', cursive;
+    font-size: 3em;
+    text-align: center;
+    border-radius: 0;
+}
+#scores {
+    text-align: center;
+    padding: 20px 70px;
+    font-family: 'PT Serif', serif;
+
+}
+#timer-container {
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.card-header {
+    text-align: center;
+}
+#question-container {
+    padding: 30px;
+}
+input[type=radio] {
+    margin-right: 20px;
+}
+form {
+    padding: 10px;
+}
