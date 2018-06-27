@@ -1,45 +1,131 @@
-h1 {
-    font-size: 3em;
+/*style all elements*/
+
+* {
+    box-sizing: border-box;
 }
-h2 {
-    font-size: 2em;
-}
-h3 {
-    font-size: 1.75em;
-}
-h4 {
-    font-size: 1.5em;
-}
-h5 {
-    font-size: 1.25em;
-}
-h6 {
-    font-size: 1em;
-}
-p {
-    font-size: 0.75em;
-}
-body {
-    background-image: url("../images/stripes-light.png");
-    background-size: cover;
-}
-.container {
-    margin: 10% 0;
-}
-#headerbar {
-    margin: 0 0 10px 0;
-    padding: 40px;
-    font-size: 3em;
+
+/*style header text*/
+
+.headerText {
+    padding-top: 20px;
+    background-color: rgb(128, 128, 128);
+    width: 20%;
+    height: 80px;
+    font-weight: 700;
+    font-size: 25pt;
+    color: white;
     text-align: center;
-    border-radius: 0;
 }
-#buttonfield {
-    height: 100px;
-    border: 2px dashed red;
-    margin: 0px;
+
+/*style header section */
+
+header {
+    background-color: #808080;
+    width: 100%;
+    height: 80px;
+    margin-right: auto;
+    margin-left: auto;
 }
-#giphyfield {
-    height: 100px;
-    border: 2px dashed blue;
-    margin: 0px;
+
+/*add button section*/
+
+.addSection {
+    text-align: center;
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    padding-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*directions for user to add button, title add button section */
+
+.directions {
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #808080;
+}
+
+/*search box for user*/
+
+.searchBox {
+    border-style: solid;
+    border-color: #808080;
+    height: 25px;
+    border-width: 3px;
+    text-transform: capitalize;
+}
+
+/*button to submit search box for user*/
+
+.addButton {
+    font-weight: 700;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 3px;
+    height: 25px;
+    color: #808080;
+    background-color: white;
+    border-radius: 25px;
+}
+
+/*title of giphy button section*/
+
+.subTitle {
+    padding-bottom: 10px;
+    font-weight: 700;
+    color: #808080;
+    padding-top: 10px;
+}
+
+/*all buttons in website*/
+
+button {
+    font-weight: 700;
+    border-style: solid;
+    border-color: #808080;
+    border-width: 3px;
+    height: 30px;
+    color: #808080;
+    background-color: white;
+    border-radius: 25px;
+    display: inline-block;
+    margin: 5px;
+}
+
+/*rating text generated for giphys*/
+
+.rating {
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: #808080;
+}
+
+/*whole section to hold all buttons existing & created*/
+
+.buttonSection {
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    min-height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*text in footer*/
+
+.footerText {
+    padding-top: 25px
+}
+
+/*footer section*/
+
+footer {
+    background-color: #808080;
+    color: white;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    margin: auto;
 }
