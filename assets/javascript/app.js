@@ -1,5 +1,5 @@
 var userText = "";
-var giphys = ["Eye Roll", "Double Take", "Snicker", "Giggle", "Belly Laugh", "Sneer", "Exasperated", "Grimace", "Pout", "Cry"];
+var giphys = ["Shawshank Redemption", "Toy Story", "Men in Black", "Ace Ventura", "Avengers", "Short Circuit", "Trading Places", "Coming to America", "Dirty Harry", "Iron Man", "The Expendables", "Terminator", "Judge Dredd", "Star Wars", "Star Trek"];
 var giphysFull = false;
 var giphyImage = "";
 var imageRating = "";

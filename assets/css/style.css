@@ -30,8 +30,8 @@ p {
 .container {
     width: 960px;
     box-shadow: 0px 0px 20px 5px gray;
-    border-radius: 10px;
     margin: 5% auto 5% auto;
+    border-radius: 10px;
 }
 
 header {
@@ -117,4 +117,6 @@ footer {
     color: white;
     text-align: center;
     padding: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
