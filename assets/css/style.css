@@ -1,53 +1,63 @@
-/*style all elements*/
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Dosis', sans-serif;
+}
 
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.75em;
+}
+h5 {
+    font-size: 1.5em;
+}
+h6 {
+    font-size: 1.25em;
+}
+p {
+    font-size: 1em;
+}
 * {
     box-sizing: border-box;
 }
 
-/*style header text*/
-
-.headerText {
-    padding-top: 20px;
-    background-color: rgb(128, 128, 128);
-    width: 20%;
-    height: 80px;
-    font-weight: 700;
-    font-size: 25pt;
-    color: white;
-    text-align: center;
+.container {
+    width: 960px;
+    box-shadow: 0px 0px 20px 5px gray;
+    border-radius: 10px;
+    margin: 5% auto 5% auto;
 }
-
-/*style header section */
 
 header {
-    background-color: #808080;
-    width: 100%;
-    height: 80px;
-    margin-right: auto;
-    margin-left: auto;
+    background-color: rgb(49, 0, 0);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
-
-/*add button section*/
 
 .addSection {
     text-align: center;
     background-color: white;
     height: 80px;
     width: 100%;
-    padding-top: 10px;
+    padding: 50px;
     margin-right: auto;
     margin-left: auto;
 }
-
-/*directions for user to add button, title add button section */
 
 .directions {
     padding-bottom: 10px;
     font-weight: 700;
     color: #808080;
 }
-
-/*search box for user*/
 
 .searchBox {
     border-style: solid;
@@ -57,10 +67,7 @@ header {
     text-transform: capitalize;
 }
 
-/*button to submit search box for user*/
-
 .addButton {
-    font-weight: 700;
     border-style: solid;
     border-color: #808080;
     border-width: 3px;
@@ -70,16 +77,11 @@ header {
     border-radius: 25px;
 }
 
-/*title of giphy button section*/
-
 .subTitle {
     padding-bottom: 10px;
-    font-weight: 700;
     color: #808080;
     padding-top: 10px;
 }
-
-/*all buttons in website*/
 
 button {
     font-weight: 700;
@@ -94,15 +96,11 @@ button {
     margin: 5px;
 }
 
-/*rating text generated for giphys*/
-
 .rating {
     padding-bottom: 5px;
     font-weight: 700;
     color: #808080;
 }
-
-/*whole section to hold all buttons existing & created*/
 
 .buttonSection {
     background-color: white;
@@ -111,21 +109,12 @@ button {
     min-height: 150px;
     margin-right: auto;
     margin-left: auto;
+    padding: 50px;
 }
-
-/*text in footer*/
-
-.footerText {
-    padding-top: 25px
-}
-
-/*footer section*/
 
 footer {
-    background-color: #808080;
+    background-color: rgb(90, 0, 0);
     color: white;
-    height: 60px;
-    width: 100%;
     text-align: center;
-    margin: auto;
+    padding: 30px;
 }
